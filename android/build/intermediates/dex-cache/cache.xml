@@ -3,201 +3,201 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_a6deb5e3f439520e644c689ba8cac98decffc0ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_c560953bcbf2c6409b77af01c4504f28c8af9b63.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_c769e7332069dc5df738104b9a0618dbd80232ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_64708f10c815b4f1b1b785a112b7af75be9909f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_30674836da59e08a568115dc6467378f6a55d995.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_3664480a827825cc8530a8c6e2e293dae373f417.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_12b65b9ec686196c6fa7ccec28c9a63cd62daa5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_b69fd1a6cf763ca51020284c35825c2a1b75ad9a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_4189382699ddf323078cf6ca1003f12204cd4049.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_e538a73e573f9c3344661d18270a86626112c9e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_85ddbdb43f50eb3f41357318befc1db094af31d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\locationApp\react-native-background-timer\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="832fc04398f09286d944049027fbcc02597b362a">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\locationApp-react-native-background-timer-unspecified_9e81951a46b7293dc1360e651e46dc880b04634e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_641f1f3d05ad8766c58ae6985721c27ea6f2a738.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_3e68f508dcbaf370d1bb468e0f6bd37eddb4477c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_0e1fe7b83812a311f9c77d7e9155dcd387524bd3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.50.3_5806d56806d42821bbf31577993553e4570bf01b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_0a11f35d2a21dd374196759308a1bc10ab668db7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_f7e4db1268c05366067a670c327c34ffe1ac8db3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_91a1bb9241ed746c1073ce7b2a30d3002ca0db87.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Derek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_df6946d780a50e6c4bb3a8c3ecca944154737426.jar" />
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_058193ad6752f16b8c30a68aef36bf34ef0858f7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_c75e121788dd4d8a7656b969dfe4cda0c048162a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_1f69d196ca30d7e59e5e20286646b6d5c3fc1f8c.jar" />
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_af96167ac861ca6245689fe14d0e6e8fab644975.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_61cdc6f75cfc4208a83179f505b39530da3c23c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_4ea296b0efe89e1dcb94062c21f723f30f7dd99d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_6be2610cfcff313302f849f2943a2737259098d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_290fbb76270d4e4e2228f6af652d2f3cbc198e6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_4a80fd27dbe0324cd5c69276839178fa0967fad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_be23d3ab4bedb16dc0a6884589750f5388766a73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_a2fd5d16bf101c8b474e2e300a9522d83d26f6c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4ea91c664e07504db18e9e348ebfa514c1536cc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_92f2946bbd8f54f8bf340aefc3b7a39a369320c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_83ad411e9f0ff054518a889f6e3472b384a13eaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b85b8963a75f2968adfe6321b411b869c9d55e47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\Derek\Documents\GitHub\honeyhackmobile\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_5eaaa67854cca2ca396731a738ab2863356eb502.jar" />
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ec97a943d9e2d8b7132d97d1a92fe5dfc381b65e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e135002b3ba6ed8b4a39d96aa3eeed6f123b11d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_8980eab38a5b555750bf8e4a0e4f0ec3eae434ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9f8abaca7bb203b387ea7d86e8b6c9b9da418508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/locationApp/react-native-background-timer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="832fc04398f09286d944049027fbcc02597b362a">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/locationApp-react-native-background-timer-unspecified_b1c1387c8969092788d7634a83d26e427964f492.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ae5566179dfe6004ea327735d5b3acc219b45e91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_b6fb080f24a06e11dd31e390aaa7c33030e20686.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6fc21895ae39ddac2edc0261d34b0630d9f59b73.jar" />
     </item>
 
 </items>

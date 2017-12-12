@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Button, PermissionsAndroid } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, PermissionsAndroid, Switch, Image } from 'react-native';
 import LoginComponent from './LoginComponent';
 // import { lchmod } from 'fs';
 
@@ -33,7 +33,8 @@ export default class App extends React.Component {
       error: null,
       loggedIn: false,
       employeeData: null,
-      message: ""
+      message: "",
+      isDeveloper: false
     }
   }
 
@@ -143,14 +144,24 @@ export default class App extends React.Component {
       <View style={styles.container}>
         {!this.state.loggedIn ? 
           <LoginComponent submitInfo={this.submitInfo.bind(this)}/> :
-          <View>
-            <Text>You are logged in</Text>
+          <View style={styles.loggedInContainer}> 
+            <View style={{marginBottom: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
+              <Text style={{fontSize: 25, fontWeight: 'bold'}}>Welcome {this.state.employeeData.username}!</Text>
+              <Switch value={this.state.isDeveloper} onValueChange={() => this.setState({isDeveloper: !this.state.isDeveloper})}/>
+            </View>
+            <Text style={{fontSize: 20, marginBottom: 5}}>Your Location:</Text>
             <Text>Longitude: {this.state.longitude}</Text>
             <Text>Latitude: {this.state.latitude}</Text>
-            <Button title="Push Data" onPress={this.pushData.bind(this)}/>
-            <Button title="Force Update" onPress={this.fineLocation.bind(this)}/>
-            <Text>{this.state.message}</Text>
+            {this.state.isDeveloper &&
+            <View>
+              <Button title="Push Data" onPress={this.pushData.bind(this)} style={styles.buttonStyle}/>
+              <Button title="Force Update" onPress={this.fineLocation.bind(this)} style={styles.buttonStyle}/>
+              <Text>{this.state.message}</Text>
+            </View>
+            }
+          <Image style={styles.mapStyle} source={require('./floorplan.jpeg')} resizeMethod='resize'/>  
           </View>
+          
         }
       </View>
     );
@@ -164,4 +175,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  loggedInContainer: {
+    flexGrow: 1, 
+    alignSelf: 'stretch', 
+    padding: 50
+  },
+  buttonStyle: {
+    marginTop: 10
+  },
+  mapStyle: {
+    marginTop: 30,
+    width: 300,
+    height: 300
+  }
 });
