@@ -1,0 +1,4 @@
+#Tue Dec 12 12:36:01 EST 2017
+base.0=/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
