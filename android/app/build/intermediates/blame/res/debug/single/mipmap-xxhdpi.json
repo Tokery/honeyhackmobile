@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\h263840\\Documents\\ConnectedWorker\\locationApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\h263840\\Documents\\ConnectedWorker\\locationApp\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Derek\\Documents\\GitHub\\honeyhackmobile\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Derek\\Documents\\GitHub\\honeyhackmobile\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

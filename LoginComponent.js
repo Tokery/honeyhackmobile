@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, Image } from 'react-native';
 
 export default class LoginComponent extends React.Component {
   constructor(props) {
@@ -21,6 +21,7 @@ export default class LoginComponent extends React.Component {
   render() {
     return (
       <View style={styles.container} >
+        <Image style={styles.logoStyle} source={require('./honeywell_logo.png')} />
         <TextInput
           style={styles.textStyle}
           onChangeText={(username) => this.setState({username})}
@@ -52,6 +53,9 @@ export default class LoginComponent extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  logoStyle:{
+    marginBottom: 20
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
