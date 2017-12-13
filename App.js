@@ -192,7 +192,7 @@ export default class App extends React.Component {
                       coordinate={{latitude: Number(location.lat), longitude: Number(location.lng)}}
                       title={'Previous location'}
                       pinColor={'green'}
-                      description={location.timestamp}/>
+                      description={moment(location.timestamp).format('YYYY M D - H:mm:ss')}/>
                     )
                   )
 
