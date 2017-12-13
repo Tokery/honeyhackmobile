@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Button, PermissionsAndroid, Switch, Image } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, PermissionsAndroid, Switch, Image, TouchableOpacity } from 'react-native';
 import LoginComponent from './LoginComponent';
 import moment from 'moment';
 import MapView from 'react-native-maps';
-// import { lchmod } from 'fs';
+
+let markerId = 0;
 
 async function requestLocationPermission() {
   try {
@@ -36,7 +37,9 @@ export default class App extends React.Component {
       loggedIn: false,
       employeeData: null,
       message: "",
-      isDeveloper: false
+      isDeveloper: false,
+      previousLocations: [],
+      showHistory: false
     }
   }
 
@@ -49,9 +52,16 @@ export default class App extends React.Component {
     return str.join("&");
   }
 
+  saveDataLocally(data){
+    const previousLocations = this.state.previousLocations;
+    previousLocations.push(data);
+    this.setState({previousLocations: previousLocations});
+  }
+
   sendDataToAPI(data) {
     console.log('Pushing...');
     console.log(data);
+    this.saveDataLocally(data);
     fetch('http://honeyhack.herokuapp.com/api/postUserLocation?' + this.convertObjectToQueryString(data), {
       method: 'POST',
       headers: {
@@ -66,14 +76,13 @@ export default class App extends React.Component {
   }
 
   getCurrentTime(){
-    return moment().format('YYYY-MM-DD h:mm:ss')
+    return new Date().getTime()
   }
 
   componentDidMount() {
     this.interval = setInterval(() => this.updateCoarseLocation(), 3000);
-    this.pushDataInterval = setInterval(() => this.pushData(), 60000);
-    this.preciseLocationInterval = setInterval(() => this.pushData(), 5000);
-    this.apiInterval = setInterval
+    this.pushDataInterval = setInterval(() => this.pushData(), 1000);
+    this.preciseLocationInterval = setInterval(() => this.fineLocation(), 60000);
   }
 
   componentWillUnmount() {
@@ -148,35 +157,25 @@ export default class App extends React.Component {
     })
   }
 
+  toggleShowHistory() {
+    console.log('Current previous locations');
+    console.log(this.state.previousLocations);
+    this.setState({showHistory: !this.state.showHistory})
+  }
+
   render() {
     return (
       <View style={styles.container}>
         {!this.state.loggedIn ? 
           <LoginComponent submitInfo={this.submitInfo.bind(this)}/> :
-          <View style={{padding: 50}}>
-            <View style={styles.loggedInContainer}> 
-              <View style={{marginBottom: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
-                <Text style={{fontSize: 25, fontWeight: 'bold'}}>Welcome {this.state.employeeData.username}!</Text>
-                <Switch value={this.state.isDeveloper} onValueChange={() => this.setState({isDeveloper: !this.state.isDeveloper})}/>
-              </View>
-              <Text style={{fontSize: 20, marginBottom: 5}}>Your Location:</Text>
-              <Text>Longitude: {this.state.longitude}</Text>
-              <Text style={{marginBottom: 20}}>Latitude: {this.state.latitude}</Text>
-              {this.state.isDeveloper &&
-              <View>
-                <Button title="Push Data" onPress={this.pushData.bind(this)} style={styles.buttonStyle}/>
-                <Button title="Force Update" onPress={this.fineLocation.bind(this)} style={styles.buttonStyle}/>
-                <Text>{this.state.message}</Text>
-              </View>
-              }      
-              <View style={styles.mapContainer}>
+          <View style={styles.mapContainer}>
                 <MapView
                 style={styles.map}
                 initialRegion={{
                   latitude: 33.773846,
                   longitude: -84.384577,
-                  latitudeDelta: 0.0022,
-                  longitudeDelta: 0.0021,
+                  latitudeDelta: 0.0025,
+                  longitudeDelta: 0.0025,
                 }}
                 >
                 { this.state.latitude &&
@@ -185,8 +184,47 @@ export default class App extends React.Component {
                     title={'Your location'}
                   />
                 }
+                { this.state.showHistory && 
+                  this.state.previousLocations.map((location) => 
+                    (
+                      <MapView.Marker
+                      key={markerId++}
+                      coordinate={{latitude: Number(location.lat), longitude: Number(location.lng)}}
+                      title={'Previous location'}
+                      pinColor={'green'}
+                      description={location.timestamp}/>
+                    )
+                  )
+
+                }
               </MapView> 
-            </View>   
+            <View style={styles.loggedInContainer}> 
+              <View style={styles.row}>
+                <Text style={{fontSize: 25, fontWeight: 'bold'}}>Welcome {this.state.employeeData.username}!</Text>
+                <Switch value={this.state.isDeveloper} onValueChange={() => this.setState({isDeveloper: !this.state.isDeveloper})}/>
+              </View>
+              <View style={styles.row}>
+                <View>
+                  <Text style={{fontSize: 20, marginBottom: 5}}>Your Location:</Text>
+                  <Text>Longitude: {this.state.longitude}</Text>
+                  <Text>Latitude: {this.state.latitude}</Text>
+                </View>
+                <View style={styles.buttonContainer}>
+                  <TouchableOpacity
+                    onPress={() => this.toggleShowHistory()}
+                    style={[styles.bubble, styles.button]}
+                  >
+                    <Text>Show History</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+              {this.state.isDeveloper &&
+                <View>
+                  <Button title="Push Data" onPress={this.pushData.bind(this)} style={styles.buttonStyle}/>
+                <Button title="Force Update" onPress={this.fineLocation.bind(this)} style={styles.buttonStyle}/>
+                <Text>{this.state.message}</Text>
+              </View>
+              }         
             </View>
             
           </View>
@@ -202,11 +240,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   loggedInContainer: {
-    flexGrow: 1, 
-    alignSelf: 'stretch'
+    alignSelf: 'stretch',
+    padding: 20,
+    backgroundColor: 'transparent',    
   },
   buttonStyle: {
     marginTop: 10
@@ -215,9 +254,32 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
   },
   mapContainer: {
-    height: 300,
-    width: 300,
-    justifyContent: 'flex-end',
+    ...StyleSheet.absoluteFillObject,
     alignItems: 'center',
   },
+  blackText: {
+    color: 'black'
+  },
+  button: {
+    width: 130,
+    paddingHorizontal: 10,
+    alignItems: 'center',
+    marginHorizontal: 10,
+  },
+  buttonContainer: {
+    flexDirection: 'column',
+    marginVertical: 0,
+    backgroundColor: 'transparent',
+  },
+  bubble: {
+    backgroundColor: 'rgba(255,255,255,0.7)',
+    paddingHorizontal: 18,
+    paddingVertical: 12,
+    borderRadius: 20,
+  },
+  row: {
+    marginBottom: 15, 
+    flexDirection: 'row', 
+    justifyContent: 'space-between'
+  }
 });
