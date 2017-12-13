@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_058193ad6752f16b8c30a68aef36bf34ef0858f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -30,48 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_61cdc6f75cfc4208a83179f505b39530da3c23c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_4ea296b0efe89e1dcb94062c21f723f30f7dd99d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
         <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_6be2610cfcff313302f849f2943a2737259098d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_290fbb76270d4e4e2228f6af652d2f3cbc198e6c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_4a80fd27dbe0324cd5c69276839178fa0967fad1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,12 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_a2fd5d16bf101c8b474e2e300a9522d83d26f6c7.jar" />
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_4ffe509637d3bd0cedab03d54f4f24a045193c3f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,21 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_83ad411e9f0ff054518a889f6e3472b384a13eaf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b85b8963a75f2968adfe6321b411b869c9d55e47.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e135002b3ba6ed8b4a39d96aa3eeed6f123b11d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,21 +84,147 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e135002b3ba6ed8b4a39d96aa3eeed6f123b11d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
         <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_8980eab38a5b555750bf8e4a0e4f0ec3eae434ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/locationApp/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6e662fd02e3a3695f4efedcc5adcf5e1f054a6fb">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/locationApp-react-native-maps-unspecified_ddc81f5dabc54eb8be6bf73bb9710accf2e83e6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_d796e0c3aaa1490735f186b646f5ccf59d97b7fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_058193ad6752f16b8c30a68aef36bf34ef0858f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_aa5dd8d7efcab4dbcb426e40a9ea659c0969bb37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_61cdc6f75cfc4208a83179f505b39530da3c23c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_4ea296b0efe89e1dcb94062c21f723f30f7dd99d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_520cd6e2abd92f6aa8b31a59629d0cbbcb7f9d83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_290fbb76270d4e4e2228f6af652d2f3cbc198e6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_4a80fd27dbe0324cd5c69276839178fa0967fad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_a2fd5d16bf101c8b474e2e300a9522d83d26f6c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_07f659a169680b480b97d1d6614b7a8917b4c33f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_f4b470d9a6b6ecea86e20e74b08dde4ac8745e99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_83ad411e9f0ff054518a889f6e3472b384a13eaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_e60881d9b64651babb6d46eb641a0f054946e954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/h263840/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b85b8963a75f2968adfe6321b411b869c9d55e47.jar" />
     </item>
     <item
         is-multidex="false"
@@ -171,33 +243,6 @@
         revision="23.0.1"
         sha1="832fc04398f09286d944049027fbcc02597b362a">
         <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/locationApp-react-native-background-timer-unspecified_b1c1387c8969092788d7634a83d26e427964f492.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ae5566179dfe6004ea327735d5b3acc219b45e91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_b6fb080f24a06e11dd31e390aaa7c33030e20686.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/h263840/Documents/ConnectedWorker/locationApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6fc21895ae39ddac2edc0261d34b0630d9f59b73.jar" />
     </item>
 
 </items>

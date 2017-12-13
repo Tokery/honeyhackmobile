@@ -17,9 +17,11 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "moment": "^2.19.4",
     "react": "16.0.0",
     "react-native": "0.50.3",
     "react-native-background-timer": "^2.0.0",
+    "react-native-maps": "^0.18.3",
     "react-timer-mixin": "^0.13.3"
   }
 }

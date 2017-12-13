@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, Button, PermissionsAndroid, Switch, Image } from 'react-native';
 import LoginComponent from './LoginComponent';
+import moment from 'moment';
+import MapView from 'react-native-maps';
 // import { lchmod } from 'fs';
 
 async function requestLocationPermission() {
@@ -64,19 +66,24 @@ export default class App extends React.Component {
   }
 
   getCurrentTime(){
-    return new Date().getTime();
+    return moment().format('YYYY-MM-DD h:mm:ss')
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.updateAndSendLocation(), 3000);
+    this.interval = setInterval(() => this.updateCoarseLocation(), 3000);
+    this.pushDataInterval = setInterval(() => this.pushData(), 60000);
+    this.preciseLocationInterval = setInterval(() => this.pushData(), 5000);
+    this.apiInterval = setInterval
   }
 
   componentWillUnmount() {
     clearInterval(this.interval);
+    clearInterval(this.pushDataInterval);
+    clearInterval(this.preciseLocationInterval);
   }
 
-  updateAndSendLocation() {
-    var canGetLocation = PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION);
+  updateCoarseLocation() {
+    var canGetLocation = PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION);
     if (canGetLocation) {
       console.log('Updating location');
       navigator.geolocation.getCurrentPosition(
@@ -144,22 +151,42 @@ export default class App extends React.Component {
       <View style={styles.container}>
         {!this.state.loggedIn ? 
           <LoginComponent submitInfo={this.submitInfo.bind(this)}/> :
-          <View style={styles.loggedInContainer}> 
-            <View style={{marginBottom: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
-              <Text style={{fontSize: 25, fontWeight: 'bold'}}>Welcome {this.state.employeeData.username}!</Text>
-              <Switch value={this.state.isDeveloper} onValueChange={() => this.setState({isDeveloper: !this.state.isDeveloper})}/>
+          <View style={{padding: 50}}>
+            <View style={styles.loggedInContainer}> 
+              <View style={{marginBottom: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
+                <Text style={{fontSize: 25, fontWeight: 'bold'}}>Welcome {this.state.employeeData.username}!</Text>
+                <Switch value={this.state.isDeveloper} onValueChange={() => this.setState({isDeveloper: !this.state.isDeveloper})}/>
+              </View>
+              <Text style={{fontSize: 20, marginBottom: 5}}>Your Location:</Text>
+              <Text>Longitude: {this.state.longitude}</Text>
+              <Text style={{marginBottom: 20}}>Latitude: {this.state.latitude}</Text>
+              {this.state.isDeveloper &&
+              <View>
+                <Button title="Push Data" onPress={this.pushData.bind(this)} style={styles.buttonStyle}/>
+                <Button title="Force Update" onPress={this.fineLocation.bind(this)} style={styles.buttonStyle}/>
+                <Text>{this.state.message}</Text>
+              </View>
+              }      
+              <View style={styles.mapContainer}>
+                <MapView
+                style={styles.map}
+                initialRegion={{
+                  latitude: 33.773846,
+                  longitude: -84.384577,
+                  latitudeDelta: 0.0022,
+                  longitudeDelta: 0.0021,
+                }}
+                >
+                { this.state.latitude &&
+                  <MapView.Marker
+                    coordinate={{latitude: Number(this.state.latitude), longitude: Number(this.state.longitude)}}
+                    title={'Your location'}
+                  />
+                }
+              </MapView> 
+            </View>   
             </View>
-            <Text style={{fontSize: 20, marginBottom: 5}}>Your Location:</Text>
-            <Text>Longitude: {this.state.longitude}</Text>
-            <Text>Latitude: {this.state.latitude}</Text>
-            {this.state.isDeveloper &&
-            <View>
-              <Button title="Push Data" onPress={this.pushData.bind(this)} style={styles.buttonStyle}/>
-              <Button title="Force Update" onPress={this.fineLocation.bind(this)} style={styles.buttonStyle}/>
-              <Text>{this.state.message}</Text>
-            </View>
-            }
-          <Image style={styles.mapStyle} source={require('./floorplan.jpeg')} resizeMethod='resize'/>  
+            
           </View>
           
         }
@@ -177,15 +204,18 @@ const styles = StyleSheet.create({
   },
   loggedInContainer: {
     flexGrow: 1, 
-    alignSelf: 'stretch', 
-    padding: 50
+    alignSelf: 'stretch'
   },
   buttonStyle: {
     marginTop: 10
   },
-  mapStyle: {
-    marginTop: 30,
+  map: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  mapContainer: {
+    height: 300,
     width: 300,
-    height: 300
-  }
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
 });
