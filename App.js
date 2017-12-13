@@ -127,16 +127,18 @@ export default class App extends React.Component {
   }
 
   pushData() {
-    var data = {
-      hid: this.state.employeeData.id,
-      title: this.state.employeeData.title,
-      manager: this.state.employeeData.manager,
-      username: this.state.employeeData.username,
-      lng: this.state.longitude,
-      lat: this.state.latitude,
-      timestamp: this.getCurrentTime()
+    if (this.state.employeeData && this.state.longitude) {
+      var data = {
+        hid: this.state.employeeData.id,
+        title: this.state.employeeData.title,
+        manager: this.state.employeeData.manager,
+        username: this.state.employeeData.username,
+        lng: this.state.longitude,
+        lat: this.state.latitude,
+        timestamp: this.getCurrentTime()
+      }
+      this.sendDataToAPI(data);
     }
-    this.sendDataToAPI(data);
   }
 
   submitInfo(employeeData) {
